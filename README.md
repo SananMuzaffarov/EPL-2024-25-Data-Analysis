@@ -1,4 +1,4 @@
-# EPL 2024-25 Season Analytics
+# EPL 2024-25 Season Analysis
 
 A comprehensive SQL-based analytics project exploring team performance, referee statistics, and match patterns in the English Premier League for the 2024-25 season.
 

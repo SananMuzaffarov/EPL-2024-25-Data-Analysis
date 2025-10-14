@@ -61,5 +61,20 @@ The project reveals:
 - Seasonal trends in goals and cards  
 - Defensive and offensive team rankings  
 
-**Power BI visualizations** make it easy to explore patterns over time, compare teams, and understand key trends in the 2024-25 EPL season.  
+## 📋 Future Enhancements
 
+In the next phase of this project, I plan to **expand the analysis beyond the English Premier League** by scraping and integrating data from other **top European leagues** such as:
+
+- **La Liga (Spain)**
+- **Serie A (Italy)**
+- **Bundesliga (Germany)**
+- **Ligue 1 (France)**
+
+This will enable a **cross-league comparison** of performance metrics, including:
+
+- Goal conversion rates and shooting efficiency  
+- Defensive solidity and clean sheet ratios  
+- Disciplinary patterns and referee trends  
+- Home vs away performance contrasts  
+
+By consolidating these datasets into a unified SQL model and extending the Power BI dashboards, the project will evolve into a **comprehensive European football analytics platform**, offering deeper insights into how league styles, competitiveness, and tactical approaches differ across the continent.

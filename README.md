@@ -77,4 +77,10 @@ This will enable a **cross-league comparison** of performance metrics, including
 - Disciplinary patterns and referee trends  
 - Home vs away performance contrasts  
 
-By consolidating these datasets into a unified SQL model and extending the Power BI dashboards, the project will evolve into a **comprehensive European football analytics platform**, offering deeper insights into how league styles, competitiveness, and tactical approaches differ across the continent.
+Additionally, I will enhance the existing data model by:
+
+- **Adding new variables** such as expected goals (xG), possession percentage, passing accuracy, and player-level metrics  
+- **Writing new SQL queries** to generate advanced insights, trend analyses, and predictive statistics  
+- **Updating Power BI dashboards** to include comparative visualizations between leagues, teams, and player performances  
+
+These improvements aim to transform the project into a **comprehensive, multi-league football analytics platform**, offering a richer understanding of tactical differences, league competitiveness, and performance dynamics across Europe.

@@ -38,19 +38,41 @@ This project analyzes EPL match data to extract meaningful insights about team p
 - **Shooting Statistics** – Total shots, shots faced  
 - **Team Comparisons** – Goals scored/conceded averages  
 
+## 📊 Statistical Analysis Notebook
+
+The `EPL-2024_25-Data_Analysis.ipynb` notebook performs the following steps:
+
+1. **Load Data:** Reads `season-2425.csv` into a pandas DataFrame.
+2. **Calculate League Table:** Computes points, goal difference (GD), and league positions.
+3. **Aggregate Team Stats:**  
+   - Total Clean Sheets per team  
+   - Total Cards per team (Yellow + Red)  
+4. **Merge Data:** Combines league table and aggregated stats into a single `team_stats` DataFrame.
+5. **Run Statistical Tests:**  
+   - Pearson correlation: Clean Sheets vs League Position  
+   - Pearson correlation: Total Cards vs League Position  
+   - Paired t-test: Home vs Away Goals
+6. **Output:**  
+   - Displays top 5 teams with all stats  
+   - Prints statistical test results with correlation coefficients and p-values  
+
+> The notebook can be run interactively in [Google Colab](https://colab.research.google.com/) or locally via Jupyter.
+
 ## 🚀 Getting Started
 
 ### Prerequisites
 - MySQL Database  
 - EPL match data (CSV)  
-- Power BI Desktop (for visualizations)  
+- Power BI Desktop (for visualizations)
+- Google Colab
 
 ## 📝 Key Files
 
 - `EPL Queries.sql` – Complete set of analytical queries  
 - `season-2425.csv` – Raw match data for the season  
 - Power BI `.pbix` file – Interactive dashboards and visualizations  
-- Various Excel/CSV outputs – Query results for different analyses  
+- Various Excel/CSV outputs – Query results for different analyses
+- `EPL-2024_25-Data_Analysis.ipynb` - Statistical Analysis of Performance Metrics
 
 ## 🔍 Analysis Highlights
 
